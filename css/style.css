@@ -1740,6 +1740,10 @@ ol {
 	color: #1e1e1e;
 }
 
+.total-info .primary-btn.proceed-btn {
+	border-color: #black;
+	color: #black;
+}
 /*---------------------
   Cart Total Page 
 -----------------------*/
