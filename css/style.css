@@ -1665,9 +1665,7 @@ ol {
 	color: #1e1e1e;
 }
 
-.shipping-info .cs-item label.active:after {
-	border-color: #1e1e1e;
-}
+
 
 .shipping-info .cs-item label span {
 	color: #838383;
