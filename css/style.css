@@ -1259,6 +1259,17 @@ ol {
 	cursor: pointer;
 }
 
+.center-cropped {
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Set the image to fill its parent and make transparent */
+.center-cropped img {
+    object-fit: cover;
+}
+
 /* --------------
   Category page
 ------------------*/
