@@ -7,7 +7,7 @@
     <meta name="keywords" content="Yoga, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cart</title>
+    <title>Choco J</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- js -->
+    <script type="text/javascript" src="js/simpleCart.js"></script>
 </head>
 
 <body>
@@ -80,7 +83,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="page-breadcrumb">
-                        <h2>Shopping Card<span>.</span></h2>
+                        <h2>Shopping Cart<span>.</span></h2>
                     </div>
                 </div>
             </div>
@@ -91,7 +94,8 @@
     <!-- Cart Page Section Begin -->
     <div class="cart-page">
         <div class="container">
-            <div class="cart-table">
+            <div class="cart-table"><table class="simpleCart_items"></table></div>
+            <!--div class="cart-table">
                 <table>
                     <thead>
                         <tr>
@@ -105,7 +109,7 @@
                     <tbody>
                         <tr>
                             <td class="product-col">
-                                 <a href="./product-page.html"><img src="img/products/img_9.jpg" width="300" height="150" alt=""></a>
+                                <a href="./product-page.html"><img src="img/products/img_9.jpg" width="300" height="150" alt=""></a>
                                 <div class="p-title">
                                     <h5>Mixed Chocolates</h5>
                                 </div>
@@ -134,7 +138,7 @@
                         <div class="site-btn update-btn">Update Cart</div>
                     </div>
                 </div>
-            </div>
+            </div-->
         </div>
         <div class="shopping-method">
             <div class="container">
@@ -188,9 +192,9 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="total">19.99 €</td>
-                                            <td class="shipping"></td>
-                                            <td class="total-cart-p">19.99 €</td>
+                                            <td class="total simpleCart_total"></td>
+                                            <td class="shipping">0.00€</td>
+                                            <td class="total-cart-p simpleCart_total"></td>
                                         </tr>
                                     </tbody>
                                 </table>
